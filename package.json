@@ -2,9 +2,11 @@
   "name": "redux-saga-reducers",
   "version": "0.0.1",
   "description": "the power of reducers, sagas, and generators combined",
-  "main": "index.js",
+  "main": "./distribution/index.js",
   "scripts": {
-    "test": "jest --verbose"
+    "test": "jest --verbose",
+    "prepublish": "npm run build",
+    "build": "babel source --presets babel-preset-es2015 --out-dir distribution"
   },
   "author": "",
   "license": "ISC",
