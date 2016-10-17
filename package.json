@@ -1,0 +1,15 @@
+{
+  "name": "redux-saga-reducers",
+  "version": "0.0.1",
+  "description": "the power of reducers, sagas, and generators combined",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "redux": "^3.6.0",
+    "redux-saga": "^0.12.0"
+  }
+}
