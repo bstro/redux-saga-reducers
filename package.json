@@ -1,6 +1,6 @@
 {
   "name": "redux-saga-reducers",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "the power of reducers, sagas, and generators combined",
   "main": "./distribution/index.js",
   "scripts": {
