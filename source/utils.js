@@ -7,7 +7,7 @@ export function next(state) {
   return put({ type: RETURN, next: state })
 }
 
-export function reducer(state, { type, next }) {
+export function reducer(state = {}, { type, next }) {
   if (type === RETURN) return next;
   return state;
 }
